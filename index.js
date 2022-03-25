@@ -11,7 +11,6 @@ divx.onclick=function(event){
     let value=value2.trim();
     if (!(value == '=') || !(value =='clear')){
     strings+=value;
-    console.log(strings)
     anse.innerHTML=strings;
        }
 }
